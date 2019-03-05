@@ -1,0 +1,11 @@
+// Basic settings
+@import "_setting/mixin";
+@import "_setting/variables";
+@import "_setting/normalize";
+@import "_setting/fonts";
+@import "_setting/basic";
+
+// Project directory style
+@import "_section/*.scss";
+@import "blocks/*.scss";
+
