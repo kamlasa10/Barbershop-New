@@ -1,0 +1,35 @@
+.user-block {
+  width: 160px;
+  margin-left: auto;
+  text-align: right;
+}
+.user-block__link {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+  position: relative;
+  transition: $Smothy;
+
+  &:hover {
+    svg {
+      fill: $Brown;
+    }
+  }
+  &:active {
+    svg {
+      fill: rgba($White, 0.3);
+    }
+  }
+}
+.user-block__icon {
+  position: absolute;
+  left: 0;
+  top: 2px;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: rgba($White, 0.3);
+  }
+}
+

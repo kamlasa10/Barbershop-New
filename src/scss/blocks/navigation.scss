@@ -1,0 +1,48 @@
+.navigation {
+  display: flex;
+}
+.navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  @include ResetStyle;
+}
+.navigation__item {
+  margin-bottom: 15px;
+  margin-right: 25px;
+  margin-left: 25px;
+
+  &:last-child {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.navigation__link {
+  font-family: $PtSansBold;
+  text-transform: uppercase;
+  color: $White;
+  transition: $Smothy;
+
+  &:hover {
+    color: $Brown;
+  }
+
+  &:active {
+    color: rgba($White, 0.3);
+  }
+}
+.navigation__item--active {
+  .navigation__link {
+    display: block;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 4px;
+      bottom: -10px;
+      width: 94%;
+      height: 3px;
+      background-color: #826550;
+    }
+  }
+}

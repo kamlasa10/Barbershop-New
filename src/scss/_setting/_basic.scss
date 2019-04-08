@@ -6,10 +6,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fff;
+  font-family: $PtSans;
+  font-size: 18px;
+  line-height: 27px;
+  color: $Black;
   background-color: #000;
   box-sizing: border-box;
 }
@@ -18,11 +18,17 @@ body {
   overflow: hidden;
 }
 .container {
-  max-width: 940px;
-  width: 100%;
+  width: 960px;
   padding: 0 10px;
   margin: 0 auto;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .row {
   display: flex;
+}
+a {
+  text-decoration: none;
 }

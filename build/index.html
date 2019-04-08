@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Барбершоп Бородинский</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <section class="main">
+      <header class="header">
+        <div class="container">
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li class="navigation__item navigation__item--active">
+                <a class="navigation__link">Главная</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Наши Работы</a>
+              </li>
+
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Записаться</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Контакты</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Html Academy</a>
+              </li>
+            </ul>
+            <div class="user-block">
+              <a class="user-block__link navigation__link" href="#">
+                Войти
+                <span class="user-block__icon">
+                  <svg>
+                    <use xlink:href="icons/sprite/sprite.svg#login"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </nav>
+          <div class="logo main__logo">
+            <picture>
+              <source srcset="icons/sprite/sprite.svg#logotype-mobile" media="(max-width: 480px)">
+              <source srcset="icons/sprite/sprite.svg#logotype-tablet" media="(max-width: 768px)">
+              <source srcset="icons/sprite/sprite.svg#logotype-desktop">
+              <img srcset="icons/sprite/sprite.svg#logotype-desktop">
+            </picture>
+          </div>
+        </div>
+      </header>
+    </section>
+  </div>
+  <script src="js/main.min.js"></script>
+</body>
+</html>

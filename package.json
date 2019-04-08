@@ -12,7 +12,7 @@
     "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.18.13",
     "del": "^3.0.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp": "github:gulpjs/gulp",
     "gulp-babel": "^7.0.0",
     "gulp-cleancss": "^0.2.2",
     "gulp-concat": "^2.6.1",
@@ -24,5 +24,15 @@
     "gulp-sass-glob": "^1.0.8",
     "gulp-sourcemaps": "^2.6.1",
     "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "gulp-cheerio": "^0.6.3",
+    "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.1.0",
+    "gulp.spritesmith": "^6.9.0",
+    "merge-stream": "^1.0.1",
+    "vinyl-buffer": "^1.0.1"
   }
 }
